@@ -3,13 +3,6 @@ import "../styles/page1.css"
 import { useState } from 'react';
 import Card from './Card';
 import Result from './Result';
-// import { ChakraProvider } from '@chakra-ui/react';
-// import {
-//     Slider,
-//     SliderTrack,
-//     SliderFilledTrack,
-//     SliderThumb,
-//   } from '@chakra-ui/react'
 
 import Slider from '@mui/material/Slider';
 
@@ -70,7 +63,7 @@ const Main = () => {
 
 
   return (
-    
+    <>    
     <div className='container'>
         <div className='main'>
             <div className="imageUpload">
@@ -89,7 +82,6 @@ const Main = () => {
                 <input type="file" id="imgUpload" onChange={fileChangeHandler}/>
 =======
 
-    <>
     <div className='main'>
         <div className="imageUpload">
             <div className="preview">
@@ -167,4 +159,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Main;
