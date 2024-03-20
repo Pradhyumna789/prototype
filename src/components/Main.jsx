@@ -14,7 +14,10 @@ import Result from './Result';
 import Slider from '@mui/material/Slider';
 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 const Main = () => {
 
   const [file, setFile] = useState();
@@ -70,6 +73,7 @@ const Main = () => {
 
 
   return (
+<<<<<<< Updated upstream
     
     <div className='container'>
         <div className='main'>
@@ -87,6 +91,23 @@ const Main = () => {
                     }
                 </div>
                 <input type="file" id="imgUpload" onChange={fileChangeHandler}/>
+=======
+
+    <>
+    <div className='main'>
+        <div className="imageUpload">
+            <div className="preview">
+                
+                {
+                    file?
+                    (
+                        <img src={file} alt="previewImg" />
+                    ):
+                    (
+                        <h3>Upload your image</h3>
+                    )
+                }
+>>>>>>> Stashed changes
             </div>
             <div className="clothes">
                 {clothes.map((i)=>(

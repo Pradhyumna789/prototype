@@ -14,8 +14,12 @@
     "framer-motion": "^11.0.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< Updated upstream
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
+=======
+    "react-scripts": "^5.0.1",
+>>>>>>> Stashed changes
     "web-vitals": "^2.1.4"
   },
   "scripts": {

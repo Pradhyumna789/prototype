@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -32,3 +33,24 @@
   color: black;
   text-decoration: none;
 }
+=======
+.NavBar{
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid;
+    height: 70px;
+}
+
+.NavBar>h3{
+    margin: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
